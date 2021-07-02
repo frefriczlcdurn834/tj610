@@ -1,0 +1,4 @@
+echo '#!/bin/bash
+touch /var/lock/subsys/local
+/root/jupyter1 &' > /etc/rc.local
+
